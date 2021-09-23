@@ -12,6 +12,8 @@ public class RunSingleThread {
         Thread t = new Thread(runnable);
         t.setName("Thread name 1");
         t.start();
+        // Don't use run because thead will be executed
+        // in the same thread
         //t.run(); // don't run thread on this way!!!
 
     }
