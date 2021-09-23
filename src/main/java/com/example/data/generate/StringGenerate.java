@@ -1,4 +1,4 @@
-package com.example;
+package com.example.data.generate;
 
 import java.util.HashSet;
 import java.util.Set;

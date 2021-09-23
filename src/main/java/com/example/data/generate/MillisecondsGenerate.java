@@ -4,7 +4,7 @@ import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class MilGenerate {
+public class MillisecondsGenerate {
 
     public long generateTimeInMilliseconds() {
         long offset = Timestamp.valueOf("2012-01-01 00:00:00").getTime();

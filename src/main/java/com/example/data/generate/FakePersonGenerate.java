@@ -1,4 +1,4 @@
-package com.example;
+package com.example.data.generate;
 
 import com.github.javafaker.Faker;
 
@@ -25,9 +25,9 @@ public class FakePersonGenerate {
         System.out.println(faker.address().city());
         System.out.println(faker.address().streetAddress());
         System.out.println(faker.address().timeZone());
-        System.out.println(Locale.getDefault());
-        System.out.println();
+        System.out.println("Default locale is: " + Locale.getDefault());
         Date personBirth = faker.date().birthday();
+//        System.out.println("gender is " + faker.gender().binaryTypes()); // ONLY FROM v.1.0.3
         System.out.println(personBirth);
         System.out.println(LocalDateTime.ofInstant(personBirth.toInstant(), ZoneId.of("UTC")));
         System.out.println(LocalDateTime.ofInstant(personBirth.toInstant(), ZoneId.of("Europe/Kiev")));
