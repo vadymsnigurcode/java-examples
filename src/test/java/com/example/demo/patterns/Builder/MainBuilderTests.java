@@ -2,7 +2,7 @@ package com.example.demo.patterns.Builder;
 
 import org.junit.jupiter.api.Test;
 
-public class BuilderTests {
+public class MainBuilderTests {
     @Test
     public void testStringBuilder() {
         StringBuilder stringBuilder = new StringBuilder();

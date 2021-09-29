@@ -2,7 +2,7 @@ package com.example.demo.patterns.Prototype;
 
 import org.junit.jupiter.api.Test;
 
-public class PrototypeTests {
+public class MainPrototypeTests {
     @Test
     public void testPrototype() {
         Registry registry = new Registry();
