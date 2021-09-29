@@ -1,4 +1,4 @@
-package com.example.demo.singleton_one_check_example;
+package com.example.demo.threads.SingletonOneCheckExample;
 
 public class SingletonV1 {
     private static SingletonV1 instance;

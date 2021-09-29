@@ -1,4 +1,4 @@
-package com.example.demo.JavaPuzzleLockMess;
+package com.example.demo.threads.JavaPuzzleLockMess;
 
 public class Worker extends Thread {
 

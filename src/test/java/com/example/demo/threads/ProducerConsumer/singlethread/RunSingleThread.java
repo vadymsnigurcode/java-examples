@@ -1,4 +1,4 @@
-package com.example.thread.execute.singlethread;
+package com.example.demo.threads.ProducerConsumer.singlethread;
 
 public class RunSingleThread {
     public RunSingleThread() {

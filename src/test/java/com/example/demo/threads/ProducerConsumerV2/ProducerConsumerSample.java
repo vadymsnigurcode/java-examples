@@ -1,10 +1,13 @@
-package com.example.thread.producerconsumer;
+package com.example.demo.threads.ProducerConsumerV2;
+
+import org.junit.jupiter.api.Test;
 
 public class ProducerConsumerSample {
     Object lock = new Object();
     private static int[] buffer;
     private static int count;
 
+    @Test
     public void execute() throws InterruptedException {
         buffer = new int[10];
         count = 0;

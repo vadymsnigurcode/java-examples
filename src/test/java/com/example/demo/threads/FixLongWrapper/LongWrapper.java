@@ -1,21 +1,20 @@
-package com.example.thread.execute.race.condition.action;
+package com.example.demo.threads.FixLongWrapper;
 
 public class LongWrapper {
     private Object key = new Object();
-
-    private long l;
-
-    public long getL() {
-        return l;
-    }
-
+    private volatile long l;
     public LongWrapper(long l) {
         this.l = l;
     }
 
+    public long getValue() {
+        synchronized (key) {
+            return l;
+        }
+    }
     public void incrementValue() {
         synchronized (key) {
-            this.l = this.l+1;
+            l = l + 1;
         }
     }
 }

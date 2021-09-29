@@ -1,4 +1,4 @@
-package com.example.demo.FixLongWrapper;
+package com.example.demo.threads.FixLongWrapper;
 
 import org.junit.jupiter.api.Test;
 

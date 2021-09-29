@@ -1,8 +1,10 @@
-package com.example.thread.execute;
+package com.example.demo.threads.DeadLock;
+
+import org.junit.jupiter.api.Test;
 
 public class DeadLockingAction {
-
-    public void  execute() throws InterruptedException {
+    @Test
+    public void testExecute() throws InterruptedException {
         A a = new A();
         Runnable r1 = () -> a.a();
         Runnable r2 = () -> a.b();

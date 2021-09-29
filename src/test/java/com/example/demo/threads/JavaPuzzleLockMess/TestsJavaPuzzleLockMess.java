@@ -1,4 +1,4 @@
-package com.example.demo.JavaPuzzleLockMess;
+package com.example.demo.threads.JavaPuzzleLockMess;
 
 import org.junit.jupiter.api.Test;
 

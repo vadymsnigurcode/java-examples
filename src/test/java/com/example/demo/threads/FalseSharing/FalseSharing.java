@@ -1,4 +1,4 @@
-package com.example.demo.false_sharing;
+package com.example.demo.threads.FalseSharing;
 
 public class FalseSharing {
     public static int NUM_THREADS_MAX = 4;
