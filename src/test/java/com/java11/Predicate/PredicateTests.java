@@ -1,11 +1,11 @@
-package com.java11;
+package com.java11.Predicate;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.function.Predicate;
 
-public class Java11FeatureTests {
+public class PredicateTests {
     @Test
     public void testPredicate() {
         List<Integer> numbers = List.of(3,4,5,67,89,88);
@@ -18,7 +18,7 @@ public class Java11FeatureTests {
     @Test
     public void testPredicateUseFunction() {
         List<Integer> numbers = List.of(3,4,5,67,89,88);
-        numbers.stream().filter(Java11FeatureTests::isEven).forEach(System.out::println);
+        numbers.stream().filter(PredicateTests::isEven).forEach(System.out::println);
     }
 
     private static boolean isEven(Integer number) {
