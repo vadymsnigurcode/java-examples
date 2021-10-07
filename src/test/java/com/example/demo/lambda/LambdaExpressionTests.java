@@ -26,7 +26,7 @@ public class LambdaExpressionTests {
     @Test
     public void testFunctionComparator() {
 
-         Function<Person, Integer> f1 = p -> p.getAge();
+        Function<Person, Integer> f1 = p -> p.getAge();
         Function<Person, String> f2 = p -> p.getFirstName();
         Function<Person, String> f3 = p -> p.getLastName();
 

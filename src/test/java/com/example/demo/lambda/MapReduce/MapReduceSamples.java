@@ -106,6 +106,7 @@ public class MapReduceSamples {
         int reduction = reduce(ints,0,op);
 
         System.out.println("Reduction : " + reduction);
+
     }
 
     @Test
