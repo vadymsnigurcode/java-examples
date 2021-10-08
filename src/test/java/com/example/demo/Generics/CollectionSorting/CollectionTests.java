@@ -1,13 +1,16 @@
-package com.example.demo.Generics.Collections;
+package com.example.demo.Generics.CollectionSorting;
 
 import org.junit.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class CollectionTests {
 
     @Test
-    public void testCollectionsReverseComparison() {
+    public void testCollections() {
         Person donDraper = new Person("Don Draper", 89);
         Person peggyOlson = new Person("Peggy Olson",65);
         Person bertCooper = new Person("Bert Cooper", 100);
@@ -18,8 +21,7 @@ public class CollectionTests {
         madMen.add(bertCooper);
         System.out.println(madMen);
         Collections.sort(madMen, new AgeComparator());
-        System.out.println(madMen);
-        Collections.sort(madMen, new ReverseComparator<>(new AgeComparator()));
+
         System.out.println(madMen);
     }
 
