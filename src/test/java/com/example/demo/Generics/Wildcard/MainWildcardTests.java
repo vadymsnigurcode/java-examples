@@ -16,8 +16,8 @@ public class MainWildcardTests {
     private Employee peggyOlson  = new Employee("Peggy Olson", 65);
 
     private File file;
-    private PersonSaver saver = new PersonSaver(new File("data.txt"));
-    private PersonLoader loader = new PersonLoader(new File("data.txt"));
+    private PersonSaver saver = new PersonSaver(new File("person"));
+    private PersonLoader loader = new PersonLoader(new File("person"));
 
     public MainWildcardTests() throws FileNotFoundException {
     }
