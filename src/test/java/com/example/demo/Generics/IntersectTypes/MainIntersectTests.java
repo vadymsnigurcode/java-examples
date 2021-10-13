@@ -21,7 +21,7 @@ public class MainIntersectTests {
     }
 
 
-    // %USER%\AppData\Local\Temp
+    // %USERPROFILE%\AppData\Local\Temp
     @Test
     public void testWriteObject() throws Exception {
 
