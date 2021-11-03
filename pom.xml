@@ -16,6 +16,9 @@
 	<properties>
 		<java.version>11</java.version>
 		<vaadin.version>14.7.0</vaadin.version>
+		<cucumber.version>7.0.0</cucumber.version>
+		<io-rest-assured.version>4.3.2</io-rest-assured.version>
+		<groovy.version>3.0.7</groovy.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -68,6 +71,36 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.6</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>${io-rest-assured.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured-common</artifactId>
+			<version>${io-rest-assured.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>${io-rest-assured.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>xml-path</artifactId>
+			<version>${io-rest-assured.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+		</dependency>
 
     </dependencies>
 	<dependencyManagement>
